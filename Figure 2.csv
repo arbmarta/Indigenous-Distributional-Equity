@@ -1,0 +1,15 @@
+﻿Country,Citation,Number of Cities,Number of Counties,Number of Metropolitan Divisions,Census Unit,Number of Census Units,Independent Variable,Dependent Variable,Result
+Canada,"Quinton et al., 2022",31,,,Dissemination Area,27608,Indigenous Identity,Greenness / Vegetation,n/s
+Canada,"Ren & Giang, 2024",23,,,Dissemination Area,3442,Indigenous Identity,Greenness / Vegetation; Park Access / Proximity; Walkability / Built Environment,Mixed
+Canada,"Sharma et al., 2025",1,,,Dissemination Area,665,Indigenous Identity,Park Access / Proximity,Equitable
+United States,"Allain & Collins, 2021",34,,,Census Tract,1192,American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander,Park Availability / Quantity,Inequitable
+United States,"Allain et al., 2025",,,,Census Block,11078297,American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander; Tribal Origins,Park Availability / Quantity,Equitable
+United States,"Casey et al., 2017",,,,Census Tract,59483,American Indian or Alaska Native,Greenness / Vegetation,Inequitable
+United States,"Chen et al., 2024b",10,,,Census Block,,American Indian or Alaska Native,Greenness / Vegetation,Inequitable
+United States,"Collins et al., 2025",,3,,Individuals; Census Block; Census Tract,339000; 81428; 1192,American Indian or Alaska Native,Park Access / Proximity,Equitable
+United States,"Li et al., 2024b",,40,,Census Block Group,44539,American Indian or Alaska Native,Greenness / Vegetation,n/s
+United States,"Nesbitt et al., 2019",10,,,Census Block Group; Census Tract,35065; 10259,American Indian or Alaska Native,Greenness / Vegetation; Park Availability / Quantity,n/s
+United States,"Stuhlmacher & Kim, 2024",10,,,Census Tract,,American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander,Park Availability / Quantity; Greenness / Vegetation,n/s
+United States,"Tang & Li, 2024",,,31,Census Tract,,American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander,Greenness / Vegetation,Inequitable
+United States,"Williams et al., 2020",5,,,Census Block,,American Indian or Alaska Native,Park Access / Proximity; Park Availability / Quantity,n/s
+United States,"Winkler et al., 2024",3524,,,Census Block,,American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander,Park Access / Proximity; Greenness / Vegetation; Walkability / Built Environment; Park Quality,Inequitable

@@ -2,105 +2,24 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.transforms import blended_transform_factory
 
-'''
-included_studies.csv requires:
-Citation, Country, n_cities, Finding, dep_var, ind_var
-'''
-
 # Load data (replace with pd.read_csv in real use)
-df = pd.DataFrame({
-    "Citation": [
-        "Martin et al., 2025",
-        "Chen et al., 2023",
-        "Lopez et al., 2022",
-        "Smith et al., 2024",
-        "Garcia et al., 2021",
-        "Nguyen et al., 2020",
-        "Brown et al., 2019",
-        "Wilson et al., 2018",
-        "Anderson et al., 2017",
-        "Taylor et al., 2016",
-        "Hernandez et al., 2015",
-        "Clark et al., 2014",
-        "Lewis et al., 2013",
-        "Walker et al., 2012",
-        "Hall et al., 2011",
-        "Young et al., 2010",
-        "King et al., 2009",
-        "Wright et al., 2008",
-        "Lo et al., 2007"
-    ],
-    "Country": [
-        "Canada", "Canada", "United States", "United States", "United States",
-        "Canada", "United States", "Canada", "United States", "Canada",
-        "United States", "Canada", "United States", "United States", "Canada",
-        "United States", "Canada", "United States", "Canada"
-    ],
-    "n_cities": [
-        12, 8, 25, 5, 18,
-        10, 30, 6, 14, 9,
-        22, 7, 16, 11, 4,
-        19, 13, 27, 8
-    ],
-    "Finding": [
-        "Equitable", "Mixed", "Inequitable", "n/s", "Equitable",
-        "Mixed", "Inequitable", "Equitable", "Mixed", "n/s",
-        "Equitable", "Inequitable", "Mixed", "Equitable", "n/s",
-        "Inequitable", "Mixed", "Equitable", "n/s"
-    ],
-    "dep_var": [
-        "Indigenous Identity;Tribal Identity",
-        "American Indian and Alaska Native",
-        "Indigenous Identity",
-        "",
-        "Tribal Identity",
-        "Indigenous Identity",
-        "American Indian and Alaska Native;Tribal Identity",
-        "",
-        "Native Hawaiian or Other Pacific Islander",
-        "Indigenous Identity",
-        "Tribal Identity",
-        "",
-        "American Indian and Alaska Native",
-        "Indigenous Identity;Native Hawaiian or Other Pacific Islander",
-        "",
-        "Tribal Identity",
-        "Indigenous Identity",
-        "American Indian and Alaska Native",
-        ""
-    ],
-    "ind_var": [
-        "Canopy Cover %;Greenspace Use",
-        "Distance to Greenspace",
-        "Canopy Cover %",
-        "Greenspace Use",
-        "",
-        "Distance to Greenspace;Canopy Cover %",
-        "Greenspace Use",
-        "Canopy Cover %",
-        "Distance to Greenspace",
-        "",
-        "Greenspace Use",
-        "Canopy Cover %",
-        "",
-        "Distance to Greenspace;Greenspace Use",
-        "Canopy Cover %",
-        "",
-        "Greenspace Use",
-        "Distance to Greenspace",
-        ""
-    ]
+df = pd.read_csv('Figure 2.csv')
+
+df = df.rename(columns={
+    "Number of Cities": "n_cities",
+    "Independent Variable": "ind_var",
+    "Dependent Variable": "dep_var",
+    "Result": "Finding"
 })
 
-# Parse dependent / independent variables into sets
 df["dep_var_set"] = df["dep_var"].fillna("").apply(
     lambda x: {v.strip() for v in x.split(";") if v.strip()}
 )
+
 df["ind_var_set"] = df["ind_var"].fillna("").apply(
     lambda x: {v.strip() for v in x.split(";") if v.strip()}
 )
 
-# --- Sort df so plotting assumptions are valid ---
 # Ensure Country order is Canada first, then United States
 df["Country"] = pd.Categorical(
     df["Country"],
@@ -112,21 +31,22 @@ df["Country"] = pd.Categorical(
 df = df.sort_values(["Country", "Citation"]).reset_index(drop=True)
 
 # Canonical variable lists (controls row order)
-dep_vars = [
-    "Indigenous Identity (CA)",
-    "American Indian and Alaska Native (US)",
-    "Native Hawaiian or Other Pacific Islander (US)",
-    "Tribal Identity (US)"
+indep_vars = [
+    "Indigenous Identity",
+    "American Indian or Alaska Native",
+    "Native Hawaiian or Other Pacific Islander",
+    "Tribal Origins"
 ]
 
-indep_vars = [
-    "Distance to Greenspace",
-    "Greenspace Use",
-    "Canopy Cover %"
+dep_vars = [
+    "Park Availability / Quantity",
+    "Park Access / Proximity",
+    "Greenness / Vegetation",
+    "Walkability / Built Environment",
+    "Park Quality"
 ]
 
 categories = [
-    ("Number of Cities", ["Number of Cities"]),
     ("Dependent Variable", dep_vars),
     ("Independent Variable", indep_vars),
     ("Finding", ["Finding"])
@@ -163,7 +83,7 @@ x_map = {lab: i for i, lab in enumerate(x_labels)}
 plot_df["x"] = plot_df["Citation"].map(x_map)
 
 # Figure
-fig, ax = plt.subplots(figsize=(26, 9))
+fig, ax = plt.subplots(figsize=(16, 9))
 
 # Country shading
 xmin, xmax = -0.5, len(x_labels) - 0.5
@@ -180,29 +100,25 @@ for _, r in plot_df.iterrows():
     x, y = r["x"], r["y"]
     cit = r["Citation"]
 
-    if r["Item"] == "Number of Cities":
-        ax.text(x, y, str(r["n_cities"]),
-                ha="center", va="center", fontsize=14)
-
-    elif r["Item"] in dep_vars:
+    if r["Item"] in dep_vars:
         used = df.loc[df["Citation"] == cit, "dep_var_set"].iloc[0]
         if r["Item"] in used:
-            ax.scatter(x, y, color="black", s=90)
+            ax.scatter(x, y, color="black", s=150)
 
     elif r["Item"] in indep_vars:
         used = df.loc[df["Citation"] == cit, "ind_var_set"].iloc[0]
         if r["Item"] in used:
-            ax.scatter(x, y, color="black", s=90)
+            ax.scatter(x, y, color="black", s=150)
 
     elif r["Item"] == "Finding":
         if r["Finding"] == "Equitable":
-            ax.scatter(x, y, marker="^", color="green", s=140)
+            ax.scatter(x, y, marker="^", color="green", edgecolors='black', s=200)
         elif r["Finding"] == "Inequitable":
-            ax.scatter(x, y, marker="v", color="red", s=140)
+            ax.scatter(x, y, marker="v", color="red", edgecolors='black', s=200)
         elif r["Finding"] == "Mixed":
-            ax.scatter(x, y, marker="o", color="blue", s=115)
+            ax.scatter(x, y, marker="o", color="blue", edgecolors='black', s=200)
         else:
-            ax.text(x, y, "n/s", ha="center", va="center", fontsize=14)
+            ax.text(x, y, "n/s", ha="center", va="center", fontsize=16)
 
 # Vertical separators
 for i in range(len(x_labels) - 1):
@@ -221,7 +137,7 @@ ax.set_xticklabels(
     ha="right",
     va="center",
     rotation_mode="anchor",
-    fontsize=14
+    fontsize=16
 )
 
 # Top country labels
@@ -240,7 +156,7 @@ ax_top.tick_params(axis="x", length=0)
 
 # Y-axis labels
 ax.set_yticks(y_table["y"])
-ax.set_yticklabels(y_table["Item"], fontsize=14)
+ax.set_yticklabels(y_table["Item"], fontsize=16)
 
 # Horizontal category separators
 for cat, _ in categories[:-1]:
@@ -255,14 +171,14 @@ dep_ys = y_table.loc[y_table["Category"] == "Dependent Variable", "y"]
 ind_ys = y_table.loc[y_table["Category"] == "Independent Variable", "y"]
 
 ax.text(x_pos_axes, (dep_ys.min() + dep_ys.max()) / 2,
-        "Dependent\nVariable",
+        "Urban Greening Var.",
         transform=trans,
         rotation=270,
         ha="center", va="center",
         fontsize=16, fontweight="bold", clip_on=False)
 
 ax.text(x_pos_axes, (ind_ys.min() + ind_ys.max()) / 2,
-        "Independent\nVariable",
+        "Census Var.",
         transform=trans,
         rotation=270,
         ha="center", va="center",

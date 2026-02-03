@@ -1,0 +1,332 @@
+
+Directory: included_studies_sorted
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\combined with asian
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\combined with asian\united states
+  King & Clarke, 2015.pdf
+  Wolch et al., 2005.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\indices
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\indices\canada
+  Fleming & Steenberg, 2023.pdf
+  Martin & Conway, 2025.pdf
+  Martin et al., 2025.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\indices\united states
+  Pallathadka et al., 2022b.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\other race and POC
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\other race and POC\canada
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous aggregated\other race and POC\united states
+  Anoh & Xia, 1996.pdf
+  Castillo-Castillo et al., 2025.pdf
+  Corley, 2024.pdf
+  Elderbrock et al., 2024.pdf
+  Hughey et al., 2016.pdf
+  Kirilenko, 2024.pdf
+  Klompmaker et al., 2023.pdf
+  Li & Li, 2025.pdf
+  Pallathadka et al., 2022a.pdf
+  Stewart et al., 2014.pdf
+  Yang et al., 2023.pdf
+  Yoon et al., 2025.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous excluded
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous excluded\canada
+  Kiani et al., 2023.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous excluded\united states
+  Ashraf & Lee, 2025.pdf
+  Choi et al., 2020.pdf
+  Dai, 2011.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous included
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous included\canada
+  Quinton et al., 2022.pdf
+  Ren & Giang, 2024.pdf
+  Sharma et al., 2025.pdf
+
+Directory: included_studies_sorted\indigenous variables mentioned (done)\indigenous included\united states
+  Allain & Collins, 2021.pdf
+  Allain et al., 2025.pdf
+  Casey et al., 2017.pdf
+  Chen et al., 2024b.pdf
+  Collins et al., 2025.pdf
+  Li et al., 2024b.pdf
+  Nesbitt et al., 2019.pdf
+  Stuhlmacher & Kim, 2024.pdf
+  Tang & Li, 2024.pdf
+  Williams et al., 2020.pdf
+  Winkler et al., 2024.pdf
+
+Directory: included_studies_sorted\no race or ethnicity variables (done)
+
+Directory: included_studies_sorted\no race or ethnicity variables (done)\canada
+  Aminipouri et al., 2016.pdf
+  Chavez et al., 2025.pdf
+  Filazzola et al., 2024.pdf
+  Gilliland et al., 2006.pdf
+  Greene et al., 2018.pdf
+  Landry et al., 2020.pdf
+  Ng et al., 2021.pdf
+  Paddle & Gilliland, 2018.pdf
+  Pham et al., 2013.pdf
+  Robillard et al., 2023.pdf
+  Tooke et al., 2010.pdf
+
+Directory: included_studies_sorted\no race or ethnicity variables (done)\united states
+  Almeter et al., 2018.pdf
+  Grineski et al., 2024.pdf
+  Jenerette et al., 2011.pdf
+  Li et al., 2022.pdf
+  Liu et al., 2025.pdf
+  Neckerman et al., 2009.pdf
+  Tian et al., 2024.pdf
+  Zhao & Meng, 2025.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\aggregated
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\aggregated\canada
+  Martin, 2022.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\excluded
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\excluded\canada
+  Apparicio et al., 2016.pdf
+  Carrier et al., 2016.pdf
+  Dong & Miller, 2024.pdf
+  Jepson et al., 2025.pdf
+  Li et al., 2025.pdf
+  Ling & Chu, 2025.pdf
+  Pham et al., 2011.pdf
+  Pham et al., 2012.pdf
+  Wang & Qiu, 2018.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\indices
+
+Directory: included_studies_sorted\race_ethnicity_variables\canada\indices\canada
+  Devisscher et al., 2023.pdf
+  Robitaille & Douyon, 2025.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\united states
+  Jang & Kim, 2025.pdf
+  Jenerette et al., 2013.pdf
+  Jesdale et al., 2013.pdf
+  Joassart-Marcelli, 2010.pdf
+  Johnson-Gaither, 2011.pdf
+  Jones et al., 2015.pdf
+  Jung et al., 2024.pdf
+  Kaczynski et al., 2025.pdf
+  Kamel et al., 2014.pdf
+  Keller et al., 2024.pdf
+  Kim et al., 2023.pdf
+  Kim et al., 2024.pdf
+  Kim et al., 2025a.pdf
+  Kim et al., 2025b.pdf
+  Kitch et al., 2023.pdf
+  Koehler & Wrightson, 1987.pdf
+  Kolosna & Spurlock, 2019.pdf
+  Koo et al., 2023.pdf
+  Landry & Chakraborty, 2009.pdf
+  Lanza & Durand, 2021.pdf
+  Lanza et al., 2019.pdf
+  Lara & Garcia, 2018.pdf
+  Larson et al., 2021.pdf
+  Lee & First, 2023.pdf
+  Lee et al., 2023.pdf
+  Li et al., 2015.pdf
+  Li et al., 2016.pdf
+  Li et al., 2024a.pdf
+  Li, 2021.pdf
+  Li, 2023.pdf
+  Limerick et al., 2023.pdf
+  Lin & Guneralp, 2024.pdf
+  Lin & Wang, 2021.pdf
+  Lin et al., 2021.pdf
+  Lin et al., 2023.pdf
+  Lin et al., 2025.pdf
+  Lindsey et al., 2001.pdf
+  Liu et al., 2021.pdf
+  Liu et al., 2023.pdf
+  Liu et al., 2024.pdf
+  Locke & Baine, 2015.pdf
+  Lotfata et al., 2023.pdf
+  Loukaitou-Sideris & Stieglitz, 2002.pdf
+  Love et al., 2025.pdf
+  Lu et al., 2024.pdf
+  Lyall et al., 2025.pdf
+  Macfarlane et al., 2022.pdf
+  Mandarano & Meenar, 2017.pdf
+  Maney & Locke, 2025.pdf
+  Maroko et al., 2009.pdf
+  McDonald et al., 2021.pdf
+  Mendoza, 2020.pdf
+  Mennis, 2011.pdf
+  Miller et al., 2022.pdf
+  Miller, 2019.pdf
+  Minaravesh, 2025.pdf
+  Mix et al., 2024.pdf
+  Miyake et al., 2010.pdf
+  Mladenka & Hill, 1977.pdf
+  Moore et al., 2008.pdf
+  Mustafa et al., 2023.pdf
+  Nega et al., 2010.pdf
+  Nelson et al., 2021.pdf
+  Nesbitt & Meitner, 2016.pdf
+  Nyelele & Kroll, 2020.pdf
+  Pallathadka et al., 2021.pdf
+  Park & Guldmann, 2020.pdf
+  Park et al., 2021.pdf
+  Park et al., 2024.pdf
+  Park, 2023.pdf
+  Pascual et al., 2020.pdf
+  Pearsall & Eller, 2020.pdf
+  Perkins et al., 2004.pdf
+  Powers et al., 2024.pdf
+  Rahman et al., 2024.pdf
+  Rasmussen et al., 2022.pdf
+  Razzaghi Asl, 2025.pdf
+  Rigolon et al., 2018.pdf
+  Rigolon, 2017.pdf
+  Riley & Gardiner, 2020.pdf
+  Rodriguez Gonzalez et al., 2022.pdf
+  Rodriguez-Gonzalez & Torres-Garrido, 2023.pdf
+  Rout & Nesbitt, 2024.pdf
+  Ryan, 2023.pdf
+  Salgado et al., 2022.pdf
+  Saporito & Casey, 2015.pdf
+  Saxon, 2021.pdf
+  Schinasi et al., 2022.pdf
+  Schwarz et al., 2015.pdf
+  Scott, 2021.pdf
+  Sen et al., 2021.pdf
+  Shin, 2020.pdf
+  Shokry et al., 2020.pdf
+  Sims et al., 2022.pdf
+  Sister et al., 2010.pdf
+  Smiley et al., 2010.pdf
+  Smith & Floyd, 2013.pdf
+  Solins et al., 2023.pdf
+  Sorrensen et al., 2015.pdf
+  Spotswood et al., 2021.pdf
+  Su et al., 2011.pdf
+  Sugg et al., 2025.pdf
+  Suminski et al., 2012.pdf
+  Sun et al., 2021.pdf
+  Szantoi et al., 2012.pdf
+  Talen, 1997.pdf
+  Talen, 2010.pdf
+  Talen, 2023.pdf
+  Ussery et al., 2016.pdf
+  VanCeylon & Melstrom, 2025.pdf
+  Varuzzo & Harvey, 2017.pdf
+  Vaughan et al., 2013.pdf
+  Velasquez-Camacho et al., 2025.pdf
+  Volin et al., 2020.pdf
+  Walker et al., 2023.pdf
+  Walter et al., 2023.pdf
+  Wang & Zha, 2024.pdf
+  Wang et al., 2024.pdf
+  Wang et al., 2025b.pdf
+  Watkins et al., 2017.pdf
+  Wei et al., 2023.pdf
+  Weiss et al., 2011.pdf
+  Wen et al., 2013.pdf
+  Wendel et al., 2011.pdf
+  Wilson et al., 2024.pdf
+  Wong et al., 2023.pdf
+  Wood et al., 2024.pdf
+  Woods et al., 2023.pdf
+  Wu et al., 2023.pdf
+  Wu et al., 2025a.pdf
+  Wu et al., 2025b.pdf
+  Yang et al., 2025b.pdf
+  Yeager et al., 2023.pdf
+  Zamponi et al., 2023.pdf
+  Zhang & Park, 2023.pdf
+  Zhang et al., 2008.pdf
+  Zhang et al., 2011.pdf
+  Zhang et al., 2022.pdf
+  Zhou & Kim, 2013.pdf
+  Zhu et al., 2025a.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\united states\aggregated
+  Abercrombie et al., 2008.pdf
+  Bara et al., 2022.pdf
+  Braun et al., 2025.pdf
+  Brooks et al., 2016.pdf
+  Chen & Hanlon, 2025.pdf
+  Chen et al., 2019a.pdf
+  Chen et al., 2019b.pdf
+  Chen et al., 2024a.pdf
+  Cheng et al., 2022.pdf
+  Garrison, 2019.pdf
+  Garrison, 2021.pdf
+  Heckert & Rosan, 2016.pdf
+  Heckert, 2013.pdf
+  Heo & Bell, 2023.pdf
+  Houston & Zuiga, 2019.pdf
+  Hu et al., 2025.pdf
+  Ibes, 2015.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\united states\excluded
+  Allen et al., 2013.pdf
+  Anderson et al., 2023.pdf
+  Baker et al., 2019.pdf
+  Benz & Burney, 2021.pdf
+  Bigsby et al., 2014.pdf
+  Browning & Rigolon, 2018.pdf
+  Cho & Choi, 2005.pdf
+  Comer & Skraastad-Jurney, 2008.pdf
+  Cutts et al., 2009.pdf
+  Darling et al., 2025.pdf
+  Davis et al., 2012.pdf
+  Dawson et al., 2018.pdf
+  Ding et al., 2025.pdf
+  Dong et al., 2023.pdf
+  Duncan et al., 2013.pdf
+  Duncan et al., 2014.pdf
+  Elliott et al., 2019.pdf
+  Engelberg et al., 2016.pdf
+  Ermagun et al., 2025.pdf
+  Fan et al., 2019.pdf
+  Fleming et al., 2025.pdf
+  Fossa et al., 2023.pdf
+  Foster et al., 2024.pdf
+  Francis et al., 2023.pdf
+  Frank & Wali, 2024.pdf
+  Fraser et al., 2024.pdf
+  Frey, 2017.pdf
+  Gaither, 2015.pdf
+  Gao et al., 2023.pdf
+  Garcia et al., 2016.pdf
+  Guan et al., 2023.pdf
+  Hallum et al., 2024.pdf
+  Holifield & Williams, 2014.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\united states\indices
+  Grigsby-Toussaint & Shin, 2022.pdf
+
+Directory: included_studies_sorted\race_ethnicity_variables\united states\~ in need of further review
+  Castro, 2022.pdf
+  Chakraborty et al., 2022.pdf
+  Chen, 2024.pdf
+  Dialesandro et al., 2021.pdf
+  Fang et al., 2023.pdf
+  Ferenchak & Barney, 2024.pdf
+  Flohr et al., 2024.pdf
+  Harlan et al., 2007.pdf
